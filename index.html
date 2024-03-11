@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html Lang="pt-BR">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Projeto X-MEN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/responsivo.css">
+    <script src='main.js'></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./imagens/logo.svg" alt="Logo x-men">
+    </header>
+    
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo" style="font-family: Oxanium;"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope">
+                    <img src="./imagens/card-ciclope.jpg" alt="Personagem ciclope">
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Jean Grey é uma mutante nivel omega e o pricipal avatar da Força Fenix, no qual manifesta poderes cósmicos. A telepatia e telecinese">
+                    <img src="./imagens/card-jean-grey.jpg" alt="Personagem jean-grey">
+                </li>
+                <li class="personagem" id="lince-negra" data-name="Lince Negra">
+                    <img src="./imagens/card-lince-negra.jpg" alt="Personagem lince-negra">
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto">
+                    <img src="./imagens/card-magneto.jpg" alt="Personagem magneto">
+                </li>
+                <li class="personagem" id="noturno" data-name="Noturno">
+                    <img src="./imagens/card-noturno.jpg" alt="Personagem noturno">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade">
+                    <img src="./imagens/card-tempestade.jpg" alt="Personagem tempestade">
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira">
+                    <img src="./imagens/card-vampira.jpg" alt="Personagem vampira">
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine">
+                    <img src="./imagens/card-wolverine.jpg" alt="Personagem wolverine">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./imagens/card-ciclope.png" alt="Personagem selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los</p>
+            </div>
+        </section>
+    </main>
+    
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>
